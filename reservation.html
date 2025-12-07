@@ -277,7 +277,7 @@ document.getElementById("reservationForm").addEventListener("submit", function(e
     let guest = document.getElementById("guest").value;
 
     // Check if any field is empty
-    if (name === "" || email === "" || date === "" || time === "" || people === "") {
+    if (name === "" || email === "" || phone === "" || date === "" || time === "" || guest === "") {
         alert("❌ Invalid booking! Please complete all fields.");
         return;
     }
