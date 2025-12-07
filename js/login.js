@@ -1,7 +1,7 @@
 document.getElementById("loginForm").addEventListener("submit", function(e){
     e.preventDefault();
 
-    let username = document.getElementById("username").value;
+    let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
     let role = document.getElementById("role").value;
 
@@ -9,7 +9,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e){
     const adminPass = "admin123";
 
     // Registered users (from signup)
-    let storedUser = localStorage.getItem("username");
+    let storedUser = localStorage.getItem("email");
     let storedPass = localStorage.getItem("password");
 
     if (role === "admin") {
@@ -23,7 +23,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e){
     }
 
     if (role === "user") {
-        if (username === storedUser && password === storedPass) {
+        if (email === storedUser && password === storedPass) {
             alert("User Login Successful!");
             window.location.href = "index.html";
         } else {
