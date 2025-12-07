@@ -278,7 +278,7 @@ document.getElementById("reservationForm").addEventListener("submit", function(e
     let time = document.getElementById("time").value.trim();
     let guest = document.getElementById("guest").value;
 
-    if (!name || !email || !phone || !date || !time || guest === "") {
+    if (!name || !email || !phone || !date || !time || !guest === "") {
         alert("❌ Invalid booking! Please complete all fields.");
         return;
     }
