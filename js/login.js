@@ -5,7 +5,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e){
     let password = document.getElementById("password").value;
     let role = document.getElementById("role").value;
 
-    const adminUser = " buttercupres@gmail.com";
+    const adminEmail = " buttercupres@gmail.com";
     const adminPass = "admin123";
 
     // Registered users (from signup)
