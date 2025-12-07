@@ -25,8 +25,11 @@ This project is developed for the IMS566 individual assignment. It showcases a f
 ### 4. Instructions to Test Login
 Use the following credentials:
 
+Admin email:  buttercupres@gmail.com
+Admin password: admin123
+Role: Admin
 
-*(Replace with your own credentials if different)*
+*For customer, they may choose to either log in or not. Customer that decided to not log in may still book their table but will not receive a special perks and cannot collecting points.
 
 ---
 
