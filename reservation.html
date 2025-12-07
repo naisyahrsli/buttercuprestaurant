@@ -267,26 +267,7 @@
 		<script src="js/google-map.js"></script>
 		<script src="js/main.js"></script>
 	
-		<script>
-document.getElementById("reservationForm").addEventListener("submit", function(e){
-    e.preventDefault();
-
-    let name = document.getElementById("name").value.trim();
-    let email = document.getElementById("email").value.trim();
-    let phone = document.getElementById("phone").value.trim();
-    let date = document.getElementById("date").value.trim();
-    let time = document.getElementById("time").value.trim();
-    let guest = document.getElementById("guest").value;
-
-    if (!name || !email || !phone || !date || !time || !guest === "") {
-        alert("❌ Invalid booking! Please complete all fields.");
-        return;
-    }
-
-    alert("🎉 Your reservation has been successfully booked!");
-    document.getElementById("reservationForm").reset();
-});
-</script>
+		
 
 
 	</body>
