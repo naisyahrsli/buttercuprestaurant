@@ -13,7 +13,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e){
     let storedPass = localStorage.getItem("password");
 
     if (role === "admin") {
-        if (username === adminUser && password === adminPass) {
+        if (email === adminEmail && password === adminPass) {
             alert("Admin Login Successful!");
             window.location.href = "index.html";  // redirect to homepage after login
         } else {
